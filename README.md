@@ -1,5 +1,6 @@
 # CloudFormation using AWS
 
+CloudFormation is an AWS service that uses files (.json/.yaml) to deploys resources across the AWS infrastructure. CloudFromation is essential for many developers that it helps productivity, time, and even cost when developing big projects for a company. Down below will have many explanations on how to use CloudFromation including an in-depth look of how our dummy application will look once you deploy the 3 .yaml files.
 
 ![CloudFormation Flowchart (1)](https://user-images.githubusercontent.com/98137377/159145487-fe0ee9cf-fa55-4620-97ca-3aab776be2ac.png)
 
