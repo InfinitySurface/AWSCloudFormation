@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Deploys a Database for our dummy application
+Description: Template that deploys a Database for our dummy application
 Parameters:
   PartitionKeyPrimary:
     Description: PrimaryKey Name
