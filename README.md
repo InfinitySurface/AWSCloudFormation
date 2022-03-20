@@ -54,10 +54,12 @@ Then proceed to you AWS dashboard and search for CloudFormation
 
 ### Deploying the YAML Files
 
+![stackDash](https://user-images.githubusercontent.com/98137377/159184542-d4124cc3-769c-47ae-8ac3-bfbecf780fae.jpg)
+
 
 ### Navigation
 
-
+![stack creation](https://user-images.githubusercontent.com/98137377/159184814-4fac884b-1a61-46da-889d-3e8e5b7757d1.jpg)
 
 ## License
 
