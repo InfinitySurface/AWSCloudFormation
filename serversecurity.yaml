@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Adds a security group to our dummy application
+Description: Template that adds a security group to our dummy application
 Parameters:
   VPC:
       Description: VPC used to deploy our resources below
