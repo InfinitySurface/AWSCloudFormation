@@ -22,7 +22,7 @@ CloudFormation is an AWS service that uses files (.json/.yaml) to deploys resour
 ## Getting Started
 
 
-### Accessing the Website
+### Deploying the YAML Files
 
 
 ### Navigation
