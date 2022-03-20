@@ -65,6 +65,8 @@ Then proceed to you AWS dashboard and search for CloudFormation
 
 ![last](https://user-images.githubusercontent.com/98137377/159185296-21d06d18-dfca-4ecb-a744-881c65e68292.jpg)
 
+![image](https://user-images.githubusercontent.com/98137377/159185376-dd4a2cfc-c185-4bf9-a323-dbf0d54f8113.png)
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the LICENSE.md file for details
