@@ -48,3 +48,4 @@ Github Profile: https://github.com/InfinitySurface
 Resources Used:
 
 * [AWS](https://aws.amazon.com/?nc2=h_lg)
+* [LucidChart](https://www.lucidchart.com/pages/)
