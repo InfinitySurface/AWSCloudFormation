@@ -46,6 +46,12 @@ The CloudFormation Flowchart was made on Lucidchart
 
 To get started, make sure you have an AWS account created and the 3 given .yaml files to deploy on CloudFormation
 
+Then proceed to you AWS dashboard and search for CloudFormation
+
+![Dashboard](https://user-images.githubusercontent.com/98137377/159184215-8ab5970d-f348-458d-8aaf-03dce22e4842.jpg)
+
+![Search](https://user-images.githubusercontent.com/98137377/159184216-30d725f3-390c-4d2f-a6d2-3a8230a12b42.jpg)
+
 ### Deploying the YAML Files
 
 
