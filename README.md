@@ -21,9 +21,10 @@ CloudFormation is an AWS service that uses files (.json/.yaml) to deploys resour
 
 ### Flowchart
 
-Below is a flowchart that represents the dummy application we will be deploying from the .yaml files.
+Below is a flowchart that represents the dummy application we will be deploying on CloudFormation from the .yaml files.
 
 ![CloudFormation Flowchart (1)](https://user-images.githubusercontent.com/98137377/159145487-fe0ee9cf-fa55-4620-97ca-3aab776be2ac.png)
+
 </p>
 <p align = "center">
 Flow Chart Built with LucidChart
