@@ -42,7 +42,7 @@ The CloudFormation Flowchart was made on Lucidchart
 
 ## Getting Started
 
-To get started, make sure you have an AWS account created and the 3 .yaml files to deploy on CloudFormation
+To get started, make sure you have an AWS account created and the 3 given .yaml files to deploy on CloudFormation
 
 ### Deploying the YAML Files
 
