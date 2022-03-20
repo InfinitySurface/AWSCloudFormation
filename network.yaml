@@ -1,6 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: >
-    Template to deploy network for dummy application
+Description: Template to deploy network for dummy application
 Parameters:
     EnvironmentName:
         Description: An environment name that will be prefixed to resource names
