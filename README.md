@@ -1,6 +1,9 @@
 # CloudFormation using AWS
 
 
+![CloudFormation Flowchart](https://user-images.githubusercontent.com/98137377/159145412-5bb821d3-4650-4fd2-a179-7270c49aa89d.png)
+
+
 ## Table Of Contents
 
 - [About The Project](#about-the-project)
