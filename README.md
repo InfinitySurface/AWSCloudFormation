@@ -7,6 +7,7 @@ CloudFormation is an AWS service that uses files (.json/.yaml) to deploys resour
 ## Table Of Contents
 
 - [About The Project](#about-the-project)
+    - [Flowchart](#flowchart)
     - [Built With](#built-with)
 - [Getting Started](#getting-started)
 - [License](#license)
@@ -23,7 +24,9 @@ Flow Chart Built with LucidChart
 
 ### Built With
 
-All 3 .yaml files were editited with the built in AWS CloudFormation Designer
+All 3 .yaml files were editited with the built in AWS CloudFormation Designer 
+
+The CloudFormation Flowchart was made on Lucidchart
 
 ## Getting Started
 
