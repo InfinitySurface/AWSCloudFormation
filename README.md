@@ -1,6 +1,6 @@
 # CloudFormation using AWS
 
-CloudFormation is an AWS service that uses files (.json/.yaml) to deploys resources across the AWS infrastructure. CloudFromation is essential for many developers that helps productivity, time, and even cost when developing big cloud projects for a company. You will be able to download the given sample .yaml files and deploy the, yourself on CloudFormation!
+CloudFormation is an AWS service that uses files (.json/.yaml) to deploy resources across the AWS infrastructure. CloudFromation is essential for many developers that helps productivity, time, and even cost when developing big cloud projects for a company. You will be able to download the given sample .yaml files and deploy them yourself on CloudFormation!
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/98137377/159177689-c6e65174-002c-4646-83bf-c4b27d7f9b64.png">
@@ -38,15 +38,15 @@ Flow Chart Built with LucidChart
 
 ### Built With
 
-All 3 .yaml files were editited with the built in AWS CloudFormation Designer 
+All 3 .yaml files were editited with the built in AWS CloudFormation Designer.
 
-The CloudFormation Flowchart was made on Lucidchart
+The CloudFormation Flowchart was made on Lucidchart.
 
 ## Getting Started
 
-To get started, make sure you have an AWS account created and the 3 given .yaml files to deploy on CloudFormation
+To get started, make sure you have an AWS account created and the 3 given .yaml files to deploy on CloudFormation.
 
-Then proceed to you AWS dashboard and search for CloudFormation
+Then proceed to your AWS dashboard and search for CloudFormation on the search bar.
 
 ![Dashboard](https://user-images.githubusercontent.com/98137377/159184215-8ab5970d-f348-458d-8aaf-03dce22e4842.jpg)
 
@@ -54,12 +54,26 @@ Then proceed to you AWS dashboard and search for CloudFormation
 
 ### Deploying the YAML Files
 
+When you make it to the CloudFront Dashboard, you will need to create a new Stack.
+
+A stack is essentially a collection of resources in a file (.json/.yaml) that you can manage as a single unit.
+
 ![stackDash](https://user-images.githubusercontent.com/98137377/159184542-d4124cc3-769c-47ae-8ac3-bfbecf780fae.jpg)
 
 
 ### Navigation
 
+Once you've clicked on 'Create stack', you will be taken to this page.
+
 ![stack creation](https://user-images.githubusercontent.com/98137377/159184814-4fac884b-1a61-46da-889d-3e8e5b7757d1.jpg)
+
+Make sure to have the same slected options as shown above since we are using a templete to deploy our resources,
+
+AWS does offer 2 other ways that lets you prepare a template, Sample Template and Template Designer.
+
+Sample Templates are already premade stacks that you can deploy.
+
+Template Designer allows you to graphically design your stack on a grid with all avaliable AWS resources at your disposal. 
 
 ![stackdetails](https://user-images.githubusercontent.com/98137377/159185136-187e9deb-e3e2-455e-ae8d-4229e861be9e.jpg)
 
