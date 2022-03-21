@@ -83,6 +83,14 @@ Once you also selected the option 'Upload a template file, and the desired .yaml
 
 ![stackdetails](https://user-images.githubusercontent.com/98137377/159185136-187e9deb-e3e2-455e-ae8d-4229e861be9e.jpg)
 
+On this page 'Specify Stack Details', this is where you will give a name to this stack as well as filling in any parameter if given.
+
+Paramters are how you can customize your AWS Infrastructures through the .yaml files. For example, the 'AMItoUse' shown above allows the user to input which AMI they decide to use instead of having it hardcoded in the .yaml file. This is key to efficency as this will make updating an specific AWS Infrastructrue much easier and faster instead of always hardcoding the value in the .yaml file.
+
+Once you have given the stack a name and filled out all (if any) parameters, click 'Next'.
+
+***Note: Step 3 can be skipped since we don't really have to change any stack options so you can skip straight to Step 4 and 'Create stack'*** 
+
 ![last](https://user-images.githubusercontent.com/98137377/159185296-21d06d18-dfca-4ecb-a744-881c65e68292.jpg)
 
 ![image](https://user-images.githubusercontent.com/98137377/159185376-dd4a2cfc-c185-4bf9-a323-dbf0d54f8113.png)
