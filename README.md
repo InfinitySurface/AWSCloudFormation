@@ -14,7 +14,6 @@ CloudFormation is an AWS service that uses files (.json/.yaml) to deploy resourc
     - [Built With](#built-with)
 - [Getting Started](#getting-started)
     - [Deploying the YAML Files](#deploying-the-yaml-files)
-    - [Navigation](#navigation)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
@@ -44,6 +43,8 @@ The CloudFormation Flowchart was made on Lucidchart.
 
 ## Getting Started
 
+### Accessing CloudFormation
+
 To get started, make sure you have an AWS account created and the 3 given .yaml files to deploy on CloudFormation.
 
 Then proceed to your AWS dashboard and search for CloudFormation on the search bar.
@@ -52,7 +53,7 @@ Then proceed to your AWS dashboard and search for CloudFormation on the search b
 
 ![Search](https://user-images.githubusercontent.com/98137377/159184216-30d725f3-390c-4d2f-a6d2-3a8230a12b42.jpg)
 
-### Deploying the YAML Files
+### Deploying the YAML Files - Create Stack
 
 When you make it to the CloudFront Dashboard, you will need to create a new Stack.
 
@@ -60,20 +61,25 @@ A stack is essentially a collection of resources in a file (.json/.yaml) that yo
 
 ![stackDash](https://user-images.githubusercontent.com/98137377/159184542-d4124cc3-769c-47ae-8ac3-bfbecf780fae.jpg)
 
-
-### Navigation
+### Deploying the YAML Files - Stack Prerequisite
 
 Once you've clicked on 'Create stack', you will be taken to this page.
 
 ![stack creation](https://user-images.githubusercontent.com/98137377/159184814-4fac884b-1a61-46da-889d-3e8e5b7757d1.jpg)
 
-Make sure to have the same slected options as shown above since we are using a templete to deploy our resources,
+The 'Stack Prerequisite' page offers the user how they would like to prepare their template. In this case, we will select 'Template is ready" option since we already have our premade .yaml files.
 
 AWS does offer 2 other ways that lets you prepare a template, Sample Template and Template Designer:
 
 * Sample Templates:  premade stacks that you can deploy.
 
 * Template Designer: graphically design your stack on a grid with all avaliable AWS resources at your disposal. 
+
+Once you also selected the option 'Upload a template file, and the desired .yaml file to upload, click 'Next'.
+
+***Note: You can only upload a file one at at time, so repeat these steps for when you are ready to upload the other two files.***
+
+### Deploying the YAML Files - Stack Details
 
 ![stackdetails](https://user-images.githubusercontent.com/98137377/159185136-187e9deb-e3e2-455e-ae8d-4229e861be9e.jpg)
 
