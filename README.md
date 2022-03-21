@@ -1,4 +1,4 @@
-# CloudFormation using AWS
+# CloudFormation
 
 CloudFormation is an AWS service that uses files (.json/.yaml) to deploy resources across the AWS infrastructure. CloudFromation is essential for many developers that helps productivity, time, and even cost when developing big cloud projects for a company. You will be able to download the given sample .yaml files and deploy them yourself on CloudFormation!
 
@@ -10,10 +10,14 @@ CloudFormation is an AWS service that uses files (.json/.yaml) to deploy resourc
 
 - [About The Project](#about-the-project)
     - [Flowchart](#flowchart)
-    - [Flowchart Breakdown](#flowchart-breakdown)
     - [Built With](#built-with)
 - [Getting Started](#getting-started)
-    - [Deploying the YAML Files](#deploying-the-yaml-files)
+    - [Accessing CloudFormation](#accessing-cloudformation)
+    - [Create Stack](#create-stack)
+    - [Stack Prerequisite](#stack-prerequisite)
+    - [Stack Details](#stack-details)
+    - [Stack Creation](#stack-creation)
+- [Navigation](#navigation)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
@@ -31,9 +35,7 @@ Below is a flowchart that represents the dummy application we will be deploying 
 Flow Chart Built with LucidChart
 </p>
 
-### Flowchart Breakdown
-
-
+This flowchart represents the infrastructrue of how the 3 .yaml files will deploy a dummy application on a webserver running on an EC2 instance. The network.yaml file will deploy a VPC, with a pair of public and private subnets spread across two Availabilty Zones. It deploys an Internet Gateway, with a default route on the public subnets. It then deploys a pair of NAT Gateways in the two avalability zones and defaults them to the private subnets. The serversecurity.yaml will deploy our two servers for our application while setting up security groups for both. Lastly, the storagedatabase.yaml file deploys 2 databases for our dummy application.
 
 ### Built With
 
@@ -53,7 +55,7 @@ Then proceed to your AWS dashboard and search for CloudFormation on the search b
 
 ![Search](https://user-images.githubusercontent.com/98137377/159184216-30d725f3-390c-4d2f-a6d2-3a8230a12b42.jpg)
 
-### Deploying the YAML Files - Create Stack
+### Create Stack
 
 When you make it to the CloudFront Dashboard, you will need to create a new Stack.
 
@@ -61,11 +63,11 @@ A stack is essentially a collection of resources in a file (.json/.yaml) that yo
 
 ![stackDash](https://user-images.githubusercontent.com/98137377/159184542-d4124cc3-769c-47ae-8ac3-bfbecf780fae.jpg)
 
-### Deploying the YAML Files - Stack Prerequisite
-
-Once you've clicked on 'Create stack', you will be taken to this page.
+### Stack Prerequisite
 
 ![stack creation](https://user-images.githubusercontent.com/98137377/159184814-4fac884b-1a61-46da-889d-3e8e5b7757d1.jpg)
+
+Once you've clicked on 'Create stack', you will be taken to this page.
 
 The 'Stack Prerequisite' page offers the user how they would like to prepare their template. In this case, we will select 'Template is ready" option since we already have our premade .yaml files.
 
@@ -79,7 +81,7 @@ Once you also selected the option 'Upload a template file, and the desired .yaml
 
 ***Note: You can only upload a file one at at time, so repeat these steps for when you are ready to upload the other two files.***
 
-### Deploying the YAML Files - Stack Details
+### Stack Details
 
 ![stackdetails](https://user-images.githubusercontent.com/98137377/159185136-187e9deb-e3e2-455e-ae8d-4229e861be9e.jpg)
 
@@ -89,11 +91,25 @@ Paramters are how you can customize your AWS Infrastructures through the .yaml f
 
 Once you have given the stack a name and filled out all (if any) parameters, click 'Next'.
 
-***Note: Step 3 can be skipped since we don't really have to change any stack options so you can skip straight to Step 4 and 'Create stack'*** 
+***Note: Step 3 can be skipped since we don't really have to change any stack options so you can skip straight to Step 4 and 'Create stack'.*** 
+
+### Stack Creation
 
 ![last](https://user-images.githubusercontent.com/98137377/159185296-21d06d18-dfca-4ecb-a744-881c65e68292.jpg)
 
+After you selected 'Create Stack', CloudFormation will then read your .yaml file and start deploying each AWS resource over a course of a couple minutes.
+
+To check if CloudFormation has fully created all of your resources, you can check the status on the left to show if the stack has completed its deployment.
+
+***Note: Deployment time can vary depending on the complexity of your .json/.yaml files you are uploading.***
+
+## Navigation
+
 ![image](https://user-images.githubusercontent.com/98137377/159185376-dd4a2cfc-c185-4bf9-a323-dbf0d54f8113.png)
+
+You can manage all your created stacks by accessing CloudFormation->Stacks.
+
+This dashboard allows you to update, delete, and create another stack if you wish to do so.
 
 ## License
 
