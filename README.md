@@ -69,11 +69,11 @@ Once you've clicked on 'Create stack', you will be taken to this page.
 
 Make sure to have the same slected options as shown above since we are using a templete to deploy our resources,
 
-AWS does offer 2 other ways that lets you prepare a template, Sample Template and Template Designer.
+AWS does offer 2 other ways that lets you prepare a template, Sample Template and Template Designer:
 
-Sample Templates are already premade stacks that you can deploy.
+* Sample Templates:  premade stacks that you can deploy.
 
-Template Designer allows you to graphically design your stack on a grid with all avaliable AWS resources at your disposal. 
+* Template Designer: graphically design your stack on a grid with all avaliable AWS resources at your disposal. 
 
 ![stackdetails](https://user-images.githubusercontent.com/98137377/159185136-187e9deb-e3e2-455e-ae8d-4229e861be9e.jpg)
 
