@@ -109,7 +109,7 @@ You can manage all your created stacks by accessing CloudFormation->Stacks.
 
 The stacks dashboard will give you insights on your stack such as when the stack was created or a breif description of your stack.
 
-This dashboard allows you to update, delete, and create another stack if you wish to do so.
+The dashboard also allows you to update, delete, and create another stack if you wish to do so.
 
 ## License
 
