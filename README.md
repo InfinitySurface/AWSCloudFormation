@@ -79,9 +79,9 @@ The 'Stack Prerequisite' page offers the user how they would like to prepare the
 
 AWS does offer 2 other ways that lets you prepare a template, Sample Template and Template Designer:
 
-* Sample Templates:  premade stacks that you can deploy.
+* Sample Templates - premade stacks that you can deploy.
 
-* Template Designer: graphically design your stack on a grid with all avaliable AWS resources at your disposal. 
+* Template Designer - graphically design your stack on a grid with all avaliable AWS resources at your disposal. 
 
 Once you also selected the option 'Upload a template file, and the desired .yaml file to upload, click 'Next'.
 
@@ -115,7 +115,7 @@ To check if CloudFormation has fully created all of your resources, you can chec
 
 You can manage all your created stacks by accessing CloudFormation->Stacks.
 
-The stacks dashboard will give you insights on your stack such as when the stack was created or a breif description of your stack.
+The stacks dashboard will give you insights on your stack such as when the stack was created or a breif description.
 
 The dashboard also allows you to update, delete, and create another stack if you wish to do so.
 
