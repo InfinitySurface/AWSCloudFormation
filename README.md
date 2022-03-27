@@ -37,15 +37,17 @@ This flowchart represents the infrastructrue of how the 3 .yaml files will deplo
 
 ### Built With
 
-All 4 .yaml files were editited with the built in AWS CloudFormation Template Designer.
+The database.yaml file was editited with the built in AWS CloudFormation Template Designer.
 
 The CloudFormation Flowchart was created on Lucidchart.
 
 ## Getting Started
 
+There are many ways of deploying your .yaml files to construct the infrastructure above. For instance you can use your local SSH or just going right through AWS itself. For this case we will be using AWS to deploy our files.
+
 ### Accessing CloudFormation
 
-To get started, make sure you have an AWS account created and the 4 given .yaml files to deploy on CloudFormation.
+To get started, make sure you have an AWS account created and the 3 given .yaml files to deploy on CloudFormation.
 
 Then proceed to your AWS dashboard and search for CloudFormation on the search bar.
 
