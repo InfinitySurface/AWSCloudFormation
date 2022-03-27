@@ -33,11 +33,11 @@ CloudFormation is an AWS service that uses files (.json/.yaml) to deploy resourc
 Flow Chart Built with LucidChart
 </p>
 
-This flowchart represents the infrastructrue of how the 3 .yaml files will deploy a dummy application on a webserver running on an EC2 instance. The network.yaml file will deploy a VPC, with a pair of public and private subnets spread across two Availabilty Zones. It deploys an Internet Gateway, with a default route on the public subnets. It then deploys a pair of NAT Gateways in the two avalability zones and defaults them to the private subnets. The serversecurity.yaml will deploy our two servers for our application while setting up security groups for both. Lastly, the storagedatabase.yaml file deploys 2 databases for our dummy application.
+This flowchart represents the infrastructrue of how the 3 .yaml files will deploy a dummy application on a webserver running on an EC2 instance. The network.yaml file will deploy a VPC, with a pair of public and private subnets that spread across two Availabilty Zones. It deploys an Internet Gateway, with a default route on the public subnets. It then deploys a pair of NAT Gateways in the two avalability zones and defaults them to the private subnets. The serversecurity.yaml will deploy our two servers for our application while setting up security groups for both. Lastly, the storagedatabase.yaml file deploys 2 databases for our dummy application.
 
 ### Built With
 
-All 3 .yaml files were editited with the built in AWS CloudFormation Template Designer.
+All 4 .yaml files were editited with the built in AWS CloudFormation Template Designer.
 
 The CloudFormation Flowchart was created on Lucidchart.
 
@@ -45,7 +45,7 @@ The CloudFormation Flowchart was created on Lucidchart.
 
 ### Accessing CloudFormation
 
-To get started, make sure you have an AWS account created and the 3 given .yaml files to deploy on CloudFormation.
+To get started, make sure you have an AWS account created and the 4 given .yaml files to deploy on CloudFormation.
 
 Then proceed to your AWS dashboard and search for CloudFormation on the search bar.
 
