@@ -33,7 +33,13 @@ CloudFormation is an AWS service that uses files (.json/.yaml) to deploy resourc
 Flow Chart Built with LucidChart
 </p>
 
-This flowchart represents the infrastructrue of how the 3 .yaml files will deploy a dummy application on a webserver running on an EC2 instance. The network.yaml file will deploy a VPC, with a pair of public and private subnets that spread across two Availabilty Zones. It deploys an Internet Gateway, with a default route on the public subnets. It then deploys a pair of NAT Gateways in the two avalability zones and defaults them to the private subnets. The serversecurity.yaml will deploy our two servers for our application while setting up security groups for both. Lastly, the storagedatabase.yaml file deploys 2 databases for our dummy application.
+The flowchart above represents the infrastructrue of how the 3 .yaml files will deploy a dummy application on a webserver running on an EC2 instance. 
+
+* network.yaml - file will deploy a VPC, with a pair of public and private subnets that spread across two Availabilty Zones. It deploys an Internet Gateway, with a default route on the public subnets. It then deploys a pair of NAT Gateways in the two avalability zones and defaults them to the private subnets. 
+
+* server.yaml - file will deploy our two servers for our application while setting up security groups for both. 
+
+* database.yaml - file will deploy databases for our dummy application.
 
 ### Built With
 
@@ -43,7 +49,7 @@ The CloudFormation Flowchart was created on Lucidchart.
 
 ## Getting Started
 
-There are many ways of deploying your .yaml files to construct the infrastructure above. For instance you can use your local SSH or just going right through AWS itself. For this case we will be using AWS to deploy our files.
+There are many ways of deploying your .yaml files to construct the infrastructure above. For instance you can use your local SSH or just going right through AWS itself. For this case, we will be using AWS to deploy our files.
 
 ### Accessing CloudFormation
 
